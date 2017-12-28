@@ -9,7 +9,6 @@
 #
 # Normal rules
 #
-.*
 *.o
 *.o.*
 *.a
@@ -84,7 +83,7 @@ patches
 series
 
 # cscope files
-cscope.*
+csc.*
 ncscope.*
 
 # gnu global files
@@ -108,9 +107,6 @@ signing_key.pem
 signing_key.priv
 signing_key.x509
 x509.genkey
-
-# Kconfig presets
-all.config
 
 # Kdevelop4
 *.kdev4
